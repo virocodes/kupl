@@ -1,7 +1,19 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["./*"]
+//     }
+//   }
+// }
+
 {
   "compilerOptions": {
+    "baseUrl": ".", // Base directory for resolving non-relative paths
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["app/*"],
+      "@/components/*": ["components/*"],
+      "@/firebase/*": ["firebase/*"],
+      "@/api/*": ["api/*"]
     }
   }
 }
